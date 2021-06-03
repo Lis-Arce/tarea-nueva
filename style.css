@@ -1,0 +1,113 @@
+body{
+
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+
+   }
+
+
+
+
+
+header, footer { 
+         background: skyblue;
+         padding: 15px;
+         color: snow;
+
+}
+
+    
+
+
+
+nav a {
+    color:white
+}
+  
+  
+main {
+    background: #ececec;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+  
+  
+p {
+    width: 50%;
+    margin: auto;
+}
+
+
+span {
+    color : red;
+    }  
+
+    
+
+
+h1, h3 {
+    color: blue
+}
+
+ul { background: yellow;
+    list-style-type: none;
+    border: 3px solid lightgrey;
+    border-radius: 50%;
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+ }
+
+  
+ul li a {
+    margin-left: 10px;
+}
+
+
+ul li:first-child, ul li:first-child a {
+    color: red;
+}
+ul li:nth-child(even), ul li:nth-child(even) a {
+    color: green;
+}
+.twitter, .twitter a {
+    color: blue;
+}
+
+#toggleBloque {
+    display: block;
+    background: rgba(128 128 128);
+    border: 2px solid #000;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.operaciones {
+    margin: 10px 0;
+}
+.operaciones button {
+    margin: 0 5px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background: white;
+}
+#operacionesContenedor {
+
+    padding: 20px 0;
+}
+input {
+    border: none;
+    width: 100px;
+    height: 20px;
+}
+
+
+
